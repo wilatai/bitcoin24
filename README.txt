@@ -21,7 +21,9 @@ Requiring an API user + key:
 - Bitcoin address:  Returns the users Bitcoin address on Bitcoin-24.com
 - Open orders:      Returns open orders
 - Cancel order:     Cancels an order 
-- Buy Bitcoin:      Buys Bitcoin for a particular price in the the currency specified ('EUR' (default) or 'USD')
-- Sell Bitcoin:     Sells Bitcoin for a particular price in the currency specified ('EUR' (default) or 'USD')
+- Buy Bitcoin:      Buys Bitcoin for a particular price in the the currency specified
+                    ('EUR' (default) or 'USD')
+- Sell Bitcoin:     Sells Bitcoin for a particular price in the currency specified
+                    ('EUR' (default) or 'USD')
 - Withdraw Bitcoin: Withdraws Bitcoins to another Bitcoin address
 - Trades:           Returns an overview of the users trades in JSON format
