@@ -90,6 +90,10 @@ class Bitcoin24:
 		"""Withdraws btc_amount of Bitcoin to Bitcoin address btc_address)"""
 		return self.request('withdraw_btc', {'amount': btc_amount, 'address': btc_address})
 
+	def trades(self):
+		"""Returns the users trades in JSON format"""
+		return self.request('trades_json')
+
 if __name__ == '__main__':
 
 	# Example usage
